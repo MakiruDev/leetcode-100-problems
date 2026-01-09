@@ -44,6 +44,17 @@ impl Solution {
 }
 
 pub fn solve(input_str: &str) {
+    if input_str == "input-format" {
+        println!("1 input -> String");
+        println!("something like this : text1");
+        println!("example : {}", "abcabcbb");
+        println!(
+            "warning : if input have special characters, please use \"\",  \"your input here\""
+        );
+        println!("something like this : \"-$#;)(*%\"");
+        return;
+    }
+
     let param1 = input_str.to_string();
 
     let output = &Solution::length_of_longest_substring(param1).to_string();
