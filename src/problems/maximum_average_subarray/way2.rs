@@ -29,6 +29,13 @@ impl Solution {
 }
 
 pub fn solve(input_str: &str) {
+    if input_str == "input-format" {
+        println!("2 input -> Vec<i32>, i32");
+        println!("something like this : numbers,numbers,...,numbers numbers");
+        println!("example : {}", "1,50,4,4,6,7 2");
+        return;
+    }
+
     let nums_param = func_run::Format::to_vec_i32(0, input_str);
     let k_param = func_run::Format::to_i32(1, input_str);
 

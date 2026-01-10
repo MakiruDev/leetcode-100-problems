@@ -55,3 +55,40 @@ pub fn solve_log(name_pb: &str, _input_str: &str, output: &str) {
     println!("input  -> {}", _input_str);
     println!("output -> {}", output);
 }
+
+// pub fn sand_need_format(nums: i32, input_need: String, expl: String, warning: u8) {
+//     let _type: Vec<&str> = input_need.split(' ').collect();
+//     let _type_len = _type.len();
+//     let mut input_type = "".to_string();
+//     let mut example = "".to_string();
+//     // let warning_char = warning.tos
+
+//     let mut type_container: Vec<String> = vec![
+//         "test1".to_string(),
+//         "test2".to_string(),
+//         "test2".to_string(),
+//         "test2".to_string(),
+//         "test2".to_string(),
+//     ];
+
+//     let type_container_len = type_container.len();
+
+//     for i in 0..type_container_len {
+//         for j in 0.._type_len {
+//             if type_container[i] == _type[j] {
+//                 example = format!("{}, {}", example, type_container[i]);
+//             }
+//         }
+
+//         if i < _type_len {
+//             input_type = format!("{}, {}", input_type, _type[i]);
+//         }
+//     }
+
+//     println!("{:?} input -> ", nums);
+//     println!("something like this : {}", input_type);
+//     println!("example : {}", expl);
+
+//     println!("warning : if input have special characters, please use \"\",  \"your input here\"");
+//     println!("something like this : \"-$#;)(*%\"");
+// }
