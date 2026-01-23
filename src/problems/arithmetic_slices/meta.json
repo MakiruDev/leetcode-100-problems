@@ -1,0 +1,7 @@
+{
+    "count_way": 2,
+    "problem": "arithmetic_slices",
+    "func": "number_of_arithmetic_slices",
+    "sample_input": "1,2,3,4",
+    "sample_output": "3"
+}
