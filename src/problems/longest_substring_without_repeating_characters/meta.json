@@ -1,0 +1,7 @@
+{
+    "count_way": 2,
+    "problem": "longest_substring_without_repeating_characters",
+    "func": "length_of_longest_substring",
+    "sample_input": "\"abcabcbb\"",
+    "sample_output": "3"
+}
