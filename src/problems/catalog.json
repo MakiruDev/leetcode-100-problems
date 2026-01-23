@@ -1,0 +1,22 @@
+{
+  "1": {
+    "module": "maximum_average_subarray",
+    "func": "find_max_average"
+  },
+  "2": {
+    "module": "longest_substring_without_repeating_characters",
+    "func": "length_of_longest_substring"
+  },
+  "3": {
+    "module": "repeated_dna_sequences",
+    "func": "find_repeated_dna_sequences"
+  },
+  "4": {
+    "module": "arithmetic_slices",
+    "func": "number_of_arithmetic_slices"
+  },
+  "5": {
+    "module": "max_consecutive_ones_iii",
+    "func": "longest_ones"
+  }
+}
