@@ -1,4 +1,5 @@
 /target
+lc-cli/target
 
 .DS_Store
 **/*.rs.bk

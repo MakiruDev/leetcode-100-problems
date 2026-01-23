@@ -1,0 +1,7 @@
+{
+    "count_way": 4,
+    "problem": "repeated_dna_sequences",
+    "func": "find_repeated_dna_sequences",
+    "sample_input": "\"AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT\"",
+    "sample_output": "AAAAACCCCC-CCCCCAAAAA"
+}
