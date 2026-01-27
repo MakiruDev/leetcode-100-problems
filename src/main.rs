@@ -49,6 +49,12 @@ fn main() {
         // problems 5
         ("5", "way1") => problems::max_consecutive_ones_iii::way1::solve(&input_str),
 
+        // problems 5
+        ("5", "way2") => problems::max_consecutive_ones_iii::way2::solve(&input_str),
+
+        // problems 5
+        ("5", "way3") => problems::max_consecutive_ones_iii::way3::solve(&input_str),
+
         // Not found problem
         _ => eprintln!("Not found: problem {} way {}", problem, way),
     }

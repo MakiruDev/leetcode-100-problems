@@ -1,7 +1,7 @@
 {
-    "count_way": 1,
-    "problem": "max_consecutive_ones_iii",
-    "func": "longest_ones",
-    "sample_input": "1,1,1,0,0,0,1,1,1,1,0 2",
-    "sample_output": "6"
+  "count_way": 3,
+  "problem": "max_consecutive_ones_iii",
+  "func": "longest_ones",
+  "sample_input": "1,1,1,0,0,0,1,1,1,1,0 2",
+  "sample_output": "6"
 }
