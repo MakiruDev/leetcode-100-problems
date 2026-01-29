@@ -18,5 +18,9 @@
   "5": {
     "module": "max_consecutive_ones_iii",
     "func": "longest_ones"
+  },
+  "6": {
+    "module": "distinct_points_reachable_after_substring_removal",
+    "func": "distinct_points"
   }
 }

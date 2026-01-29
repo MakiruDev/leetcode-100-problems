@@ -1,6 +1,7 @@
-use crate::problems::func_run;
 use std::collections::{HashMap, hash_map::Entry};
 use std::string::String;
+
+use crate::problems::func_run;
 
 pub struct Solution;
 

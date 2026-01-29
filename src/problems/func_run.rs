@@ -10,6 +10,15 @@ impl Format {
         result
     }
 
+    pub fn to_string(index_dir: usize, input: &str) -> String {
+        let parts: Vec<&str> = input.split(' ').collect();
+        let start_value = parts[index_dir];
+
+        let result = start_value.to_string();
+
+        result
+    }
+
     pub fn to_vec_i32(index_dir: usize, input: &str) -> Vec<i32> {
         let parts: Vec<&str> = input.split(' ').collect();
         let start_value = parts[index_dir];
