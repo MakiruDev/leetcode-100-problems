@@ -55,6 +55,15 @@ fn main() {
         // problems 5
         ("5", "way3") => problems::max_consecutive_ones_iii::way3::solve(&input_str),
 
+        // problems 6
+        ("6", "way1") => problems::distinct_points_reachable_after_substring_removal::way1::solve(&input_str),
+
+        // problems 6
+        ("6", "way2") => problems::distinct_points_reachable_after_substring_removal::way2::solve(&input_str),
+
+        // problems 6
+        ("6", "way3") => problems::distinct_points_reachable_after_substring_removal::way3::solve(&input_str),
+
         // Not found problem
         _ => eprintln!("Not found: problem {} way {}", problem, way),
     }

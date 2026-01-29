@@ -1,0 +1,7 @@
+{
+  "count_way": 3,
+  "problem": "distinct_points_reachable_after_substring_removal",
+  "func": "distinct_points",
+  "sample_input": "UDLLLLRDLDRRD 3",
+  "sample_output": "6"
+}
