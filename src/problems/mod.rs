@@ -5,3 +5,4 @@ pub mod maximum_average_subarray;
 pub mod repeated_dna_sequences;
 pub mod max_consecutive_ones_iii;
 pub mod distinct_points_reachable_after_substring_removal;
+pub mod find_median_from_data_stream;

@@ -64,6 +64,15 @@ fn main() {
         // problems 6
         ("6", "way3") => problems::distinct_points_reachable_after_substring_removal::way3::solve(&input_str),
 
+        // problems 7
+        ("7", "way1") => problems::find_median_from_data_stream::way1::solve(&input_str),
+
+        // problems 7
+        ("7", "way2") => problems::find_median_from_data_stream::way2::solve(&input_str),
+
+        // problems 7
+        ("7", "way3") => problems::find_median_from_data_stream::way3::solve(&input_str),
+
         // Not found problem
         _ => eprintln!("Not found: problem {} way {}", problem, way),
     }
