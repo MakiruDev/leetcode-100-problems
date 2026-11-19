@@ -22,5 +22,9 @@
   "6": {
     "module": "distinct_points_reachable_after_substring_removal",
     "func": "distinct_points"
+  },
+  "7": {
+    "module": "find_median_from_data_stream",
+    "func": "find_median"
   }
 }

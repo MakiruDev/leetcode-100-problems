@@ -1,0 +1,7 @@
+{
+  "count_way": 3,
+  "problem": "find_median_from_data_stream",
+  "func": "find_median",
+  "sample_input": "MedianFinder,addNum,addNum,findMedian,addNum,findMedian 1,2,3",
+  "sample_output": "null,null,null,1.5,null,2.0"
+}
